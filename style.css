@@ -1,0 +1,255 @@
+body{
+background-color: #1f1f2e !important;
+
+}
+
+.container h2{
+    color: white;
+    margin: 0 auto;
+
+}
+
+#welcome-text{
+    color: white; 
+    position: absolute;
+    z-index: 3;
+    top:10em;
+    left:13em;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+.search-container{
+    height: 100vh;
+    position: relative;
+}
+
+
+.card-grid{
+    display: grid;
+    margin: 2px, 0;
+    gap: 50px;
+}
+
+.card{
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.carousel img {
+ max-height: 100vh;
+ 
+}
+
+footer{
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-items: center;
+    bottom: 0px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+footer p{
+    margin: 0 auto;
+}
+
+nav, footer{
+    opacity: 60%;
+    z-index:2;
+    
+}
+
+.bg-dark:hover{
+    color: red !important;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    box-shadow: 10px 10px 5px black;
+}
+
+.card-body img{
+    max-width: 300px;
+    margin-bottom: 15px;
+    
+}
+
+.hide{
+    display: none !important;
+}
+
+.active-slide{
+    display: inline;
+    z-index: 2;
+}
+
+.box{
+    box-sizing: border-box;
+    width: 90vw;
+    height: 90vh;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchResults{
+ background-color: white;
+ border-radius: 15px;
+ box-shadow: 10px 10px 5px black;
+ opacity: 90%;
+ position: relative;
+}
+
+#searchImg{
+    z-index: 0;
+    opacity: 50%;
+    position: absolute;
+    top: -45px;
+    object-position: 5px 10%;
+    height: 833px;
+
+}
+
+.aside{
+    position: relative;
+    top: 7%;
+    width: 100%;
+    left: 0px;
+    text-align:center;
+    height: 600px;
+    margin-top: 100px;
+}
+
+table{
+    background-color:lightgray;
+    
+    border: 2px solid black;
+    margin: 2px 2px 2px 2px;
+    opacity: 90%;
+    
+}
+
+.basketballResults {
+    background-image: url('https://image.freepik.com/free-photo/3d-render-basketball-hit-basket-slow-motion_161488-807.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+/*Soccer Card CSS*/
+#name, #soccerName{
+    position: absolute;
+    left: 1em;
+    top: .5em;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.soccerResults {
+    background-image: url('https://d25qe19fo1nsn4.cloudfront.net/wp-content/uploads/2016/10/US-Soccer-Federation.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.input-group-append {
+    right: 0;
+}
+
+#soccerInfo p {
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#playerImg, #soccerPlayerImg{
+    background-color: rgb(181, 212, 118);
+    border: 3px solid black;
+    border-radius: 5px;
+    position: absolute;
+    left: 1.5em;
+    top: 6em;
+}
+
+#soccerTeamImg img {
+    margin-top: 4em;
+    width: 15em;
+    height: 15em; 
+    margin-left: 1.01em;  
+}
+
+
+#soccerInfo{
+    font-size: 16px;
+    position: absolute;
+    left: 2em;
+    top: 20em;
+}
+
+#soccerSearch{
+    z-index: 2;
+    bottom: 0px;
+    position: absolute;
+}
+
+.soccerMatches {
+    display: flex;
+    align-items: start;
+}
+
+#standings {
+    position: absolute;
+    right: 20px;
+}
+
+#bbName {
+    text-decoration: underline;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.teamInfo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recordInfo {
+    font-size: 25px;
+}
+
+#info {
+    position: absolute;
+    left: 20px;
+    margin: 10px;
+}
+
+.aside{
+    padding: 0 20px;
+    height: 1300px;
+}
+
+aside div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.standingImg {
+    max-width: 25px;
+    max-height: 25px;
+}
+
